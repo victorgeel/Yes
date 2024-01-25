@@ -9,7 +9,7 @@ pkg install golang
 
 git clone https://github.com/victorgeel/Yes.git 
 
-cd yes                         
+cd Yes                         
 
 chmod +x *       
 

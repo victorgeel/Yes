@@ -37,7 +37,7 @@
 		"ServerNameIndication": "",
 		"MeekType": 0,
 		"Timeout": 5,
-		"ShowLog": true
+		"ShowLog": false
 	},
 	"PsiphonCore": 4,
 "Psiphon": {

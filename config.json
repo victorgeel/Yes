@@ -1,0 +1,55 @@
+{
+	"ProxyRotator": {
+		"Port": "9693"
+	},
+	"Inject": {
+		"Enable": true,
+		"Type": 2,
+		"Port": "8989",
+		"Rules": {
+    "akamai.net:80": [
+        "www.pubgmobile.com"
+    ]
+},
+        "Rules": {
+    "akamai.net:80": [
+        "ak-quic.stream.music.joox.com.edgesuite.net",
+        "ak-hk.stream.music.joox.com.edgesuite.net",
+        "ak-ng.stream.music.joox.com.edgesuite.net",
+        "ak-quic.app.joox.com.edgesuite.net",
+        "ak-ng.app.joox.com.edgesuite.net",
+        "e5121.b.akamaiedge.net"
+    ]
+},
+        "Rules": {
+	"akamai.net:80": [
+				"video.iflix.com",
+        "videocdn-2.iflix.com",
+        "iflix-videocdn-p1.akamaized.net",
+        "iflix-videocdn-p2.akamaized.net",
+        "iflix-videocdn-p3.akamaized.net",
+        "iflix-videocdn-p6.akamaized.net",
+        "iflix-videocdn-p7.akamaized.net",
+        "iflix-videocdn-p8.akamaized.net"
+			]
+		},
+		"Payload": "",
+		"ServerNameIndication": "",
+		"MeekType": 0,
+		"Timeout": 5,
+		"ShowLog": true
+	},
+	"PsiphonCore": 4,
+"Psiphon": {
+    "CoreName": "core",
+    "Tunnel": 4,
+    "Region": "",
+    "Protocols": [
+        "FRONTED-MEEK-HTTP-OSSH",
+        "FRONTED-MEEK-OSSH"
+    ],
+    "TunnelWorkers": 8,
+    "KuotaDataLimit": 0,
+		"Authorizations": ["eyJBdXRob3JpemF0aW9uIjp7IklEIjoicVYvbTZlUzM0WHAvejJ0MmRVZEFKRVdlS0VGS1JMc1dpT1pWTXlwWTlCMD0iLCJBY2Nlc3NUeXBlIjoiZ29vZ2xlLXN1YnNjcmlwdGlvbiIsIkV4cGlyZXMiOiIyMDI0LTAyLTAxVDE4OjU3OjA0WiJ9LCJTaWduaW5nS2V5SUQiOiJSY1g1K0pBZVVPam9XY0hvajQ1NjhYc1ZsQWJzMFFhc0FqKzFBRDYrbndRPSIsIlNpZ25hdHVyZSI6IlpSelA0OHZwSzJmYXhVNTFYak10alZkQUNMWUZSbVhIUnhwRnFRWXNyQkN3OXNCMXZiMkFOa0pJMUE2dGpJVTU2V2dKekJmclUrWVhId2VUdmVraEJRPT0ifQ=="]
+	}
+}

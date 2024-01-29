@@ -43,7 +43,7 @@
 "Psiphon": {
     "CoreName": "core",
     "Tunnel": 4,
-    "Region": "",
+    "Region": "SG",
     "Protocols": [
         "FRONTED-MEEK-HTTP-OSSH",
         "FRONTED-MEEK-OSSH"

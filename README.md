@@ -20,6 +20,18 @@ chmod +x *
 
 ./yes
 
+## Region ( for Asian region recommend to use SG & JP )
+
+❤️‍🔥eg cmd
+
+💟For s'pore
+
+./yes -r SG
+
+💟For japan
+
+./yes -r JP
+
 ### Proxy setting
 
 127.0.0.1
@@ -29,14 +41,13 @@ port 9693
 
 
 ## Update
-💗💗💗💗💗💗
-You can choose two versions here
+💚You can choose two versions here💚
 
-If u lik old Brainfuck version use cmd
+🍭If u like to use old Brainfuck version type cmd
 
 ./yes
 
-If u like to use modified version of mine use cmd
+🍭If u like to use modified version of mine type cmd
 
 ./Run
 

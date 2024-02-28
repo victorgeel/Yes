@@ -15,7 +15,7 @@ echo ""
 echo -e "\033[1;33mInstalling requirements\033[1;37m"
 echo ""
 sleep 1
-pkg install -y screen unzip wget redsocks
+pkg install screen unzip wget redsocks
 clear
 echo ""
 echo -e "\033[1;33mDownloading tools\033[1;37m"

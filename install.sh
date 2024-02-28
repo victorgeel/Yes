@@ -145,6 +145,6 @@ echo ""
 echo -e "\033[1;33mRemoving file cache\033[1;37m"
 echo ""
 rm -rf ~/psiphon-pro-go.zip
-brain
+./brain
 echo -e "\033[1;33mInstalling Brainfuck Psiphon Done\033[1;37m"
 rm -rf ~/install.sh

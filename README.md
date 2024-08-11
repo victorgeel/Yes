@@ -18,11 +18,15 @@ chmod +x *
 
 ### vpn စ ရန် 
 
-pls delete config first
-
-rm -rf config.json
+for old version 
 
 ./yes
+
+or
+
+for my one
+
+./psp
 
 ## Region ( for Asian region recommend to use SG & JP )
 

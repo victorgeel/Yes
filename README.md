@@ -53,6 +53,6 @@ port 9693
 
 🍭If u like to use modified version of mine type cmd
 
-./Run
+./psp
 
 

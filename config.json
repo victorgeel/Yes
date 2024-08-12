@@ -8,6 +8,12 @@
 		"Port": "8989",
 		"Rules": {
 			"akamai.net:80": [
+				"video.iflix.com",
+				"videocdn-2.iflix.com",
+				"iflix-videocdn-p8.akamaized.net",
+				"viu.app.link",
+				"s.youtube.com",
+				"youtubei.googleapis.com",
 				"www.pubgmobile.com",
 				"www.pubgmobile.com.cdn.ettdnsv.com",
 				"www.pubgmobile.com.edgesuite.net",
@@ -22,7 +28,7 @@
 			]
 		},
 		"Payload": "",
-		"ServerNameIndication": "instagram.fcgk8-1.fna.fbcdn.net",
+		"ServerNameIndication": "video.iflix.com",
 		"MeekType": 0,
 		"Timeout": 5,
 		"ShowLog": false
@@ -36,8 +42,8 @@
 			"FRONTED-MEEK-HTTP-OSSH",
 			"FRONTED-MEEK-OSSH"
 		],
-		"TunnelWorkers": 6,
-		"KuotaDataLimit": 4,
+		"TunnelWorkers": 10,
+		"KuotaDataLimit": 0,
 		"Authorizations": []
 	}
 }

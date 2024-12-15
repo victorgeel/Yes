@@ -8,27 +8,18 @@
 		"Port": "8989",
 		"Rules": {
 			"akamai.net:80": [
-				"video.iflix.com",
-				"videocdn-2.iflix.com",
-				"iflix-videocdn-p8.akamaized.net",
-				"viu.app.link",
-				"s.youtube.com",
-				"youtubei.googleapis.com",
-				"www.pubgmobile.com",
-				"www.pubgmobile.com.cdn.ettdnsv.com",
-				"www.pubgmobile.com.edgesuite.net",
-				"a1845.dscb.akamai.net",
-				"esports.mobilelegends.com.akamaized.net",
-				"a1806.v.akamai.net",
-				"game.mobilelegends.com.akamaized.net",
-				"a1958.v.akamai.net",
-				"m.mobilelegends.com.akamaized.net",
-				"a1815.dscv.akamai.net",
-				"static.web.moonton.com"
+				"a1707.b.akamai.net",
+				"v2-down-gamelet.sgameglobal.com",
+				"gromelink-mgr.sgameglobal.com",
+				"aws-intlsdk.sgameglobal.com:80",
+				"d1wx4bhuqxtxug.cloudfront.net",
+				"a1274.w27.akamai.net",
+				"n0w27.akamai.net",
+				"a383.b.akamai.net"
 			]
 		},
-		"Payload": "",
-		"ServerNameIndication": "video.iflix.com",
+		"Payload": "[[netData][crlf*2]",
+		"ServerNameIndication": "instagram.fcgk8-1.fna.fbcdn.net",
 		"MeekType": 0,
 		"Timeout": 5,
 		"ShowLog": false
@@ -37,13 +28,13 @@
 	"Psiphon": {
 		"CoreName": "core",
 		"Tunnel": 1,
-		"Region": "",
+		"Region": "sg",
 		"Protocols": [
 			"FRONTED-MEEK-HTTP-OSSH",
 			"FRONTED-MEEK-OSSH"
 		],
-		"TunnelWorkers": 10,
+		"TunnelWorkers": 6,
 		"KuotaDataLimit": 0,
-		"Authorizations": []
+		"Authorizations": ["eyJBdXRob3JpemF0aW9uIjp7IklEIjoicEcrbWFMTmhpTDhyNjlocEk1YnpxYnl3Mld2ZmJ4dThZV25vMklTczVhRT0iLCJBY2Nlc3NUeXBlIjoiZ29vZ2xlLXN1YnNjcmlwdGlvbiIsIkV4cGlyZXMiOiIyMDI0LTEyLTA5VDEzOjUzOjE5WiJ9LCJTaWduaW5nS2V5SUQiOiJSY1g1K0pBZVVPam9XY0hvajQ1NjhYc1ZsQWJzMFFhc0FqKzFBRDYrbndRPSIsIlNpZ25hdHVyZSI6ImFUcFJwSGJrOExPZEVEQU5jYkZWUWw2SjgzVGhlUTVDNm11cDZjMzVEU1hkZy9CYWIwdVVlTmhwcFlZSkttNko1dmVQUjdJY2M2Ty8wWjVYT0hzakR3PT0ifQ=="]
 	}
 }
